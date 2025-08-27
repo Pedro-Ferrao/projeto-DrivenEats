@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>DrivenEats</title>
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="texto-topo">
+            <h1>DrivenEats</h1>
+            <h3>Faça seu macarrão:</h3>
+
+        </div>
+    </header>
+
+
+
+                                            <!-- INICIO PEDIDO -->
+    <main class="conteudo">
+        <p>Primeiro, sua massa</p>
+        <div class="produtos massas">
+            <div class="produto" onclick="selecionarPrato(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Fettuccine.jpg" alt="" srcset="">
+                <p>Fettuccine</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 20,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarPrato(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Fusilli.jpg" alt="" srcset="">
+                <p>Fusilli</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 19,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarPrato(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Linguine.jpg" alt="" srcset="">
+                <p>Linguine</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 20,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarPrato(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Rigattoni.jpg" alt="" srcset="">
+                <p>Rigattoni</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 20,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Agora, seu molho</p>
+        <div class="produtos molhos"> 
+            <div class="produto" onclick="selecionarMolho(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Molho bolonhesa.webp" alt="" srcset="">
+                <p>Molho bolonhesa</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 6,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarMolho(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Molho branco.webp" alt="" srcset="">
+                <p>Molho branco</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 9,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarMolho(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Molho pesto.webp" alt="" srcset="">
+                <p>Molho pesto</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 6,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarMolho(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/Molho de espinafre.webp" alt="" srcset="">
+                <p>Molho de espinafre</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 7,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Agora, sua bebida</p>
+        <div class="produtos bebidas">
+            <div class="produto" onclick="selecionarBebida(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/coca.jpg" alt="" srcset="">
+                <p>Coquinha geladinha</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 6,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarBebida(this)">
+                <img src="imagens/suco.jpg" alt="" srcset="">
+                <p>Suco de Laranja</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 7,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarBebida(this)"> <!-- Onclick botão-js -->
+                <img src="imagens/agua.jpg" alt="" srcset="">
+                <p>Agua Mineral</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 5,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" onclick="selecionarBebida(this)">  <!-- Onclick botão-js -->
+                <img src="imagens/guarana.jpg" alt="" srcset="">
+                <p>Guarana Antartica</p>
+                <div class="produto-rodape">
+                    <div class="preco">
+                        <p>R$ 6,90</p>
+                    </div>
+                    <div class="icone">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+                                            <!-- FINAL PEDIDO -->
+
+                                            <!-- INICIO BOTÃO -->
+        <footer class="botao-footer">
+        <button onclick="finalizarPedido(this)">
+            <span>
+                Selecione os 3 itens para fechar o pedido
+            </span>
+        </button>
+    </footer>
+    <div class="modal escondido"></div>
+    <div class="modal-box escondido">
+        <span>Confirme seu pedido</span>
+        <div>
+          <span class="item-1">sdfasdfasdfas</span>
+          <span class="preco-1">154</span>
+        </div>
+        <div>
+          <span class="item-2">asdfasdfasdf</span>
+          <span class="preco-2">54</span>
+        </div>
+        <div>
+          <span class="item-3">sdfsgsdfgsdfgsdfgsd</span>
+          <span class="preco-3">25</span>
+        </div>
+        <div>
+            <span>Total</span>
+            <span class="preco-4">546595</span>
+        </div>
+        <button onclick="notificacao()">Tudo certo, pode pedir!</button>
+        <span onclick="esconder()">Cancelar</span>
+      </div>
+                                        <!-- FINAL BOTÃO -->
+
+                                    
+                                        <!-- JAVASCRIPT -->                                
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+                                        <!-- JAVASCRIPT -->  
+
+
+</body>
